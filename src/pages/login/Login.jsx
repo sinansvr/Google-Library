@@ -26,7 +26,6 @@ const Login = () => {
                         className="form-control"
                         id="userName"
                         onChange={(e)=>setUser({...user,userName:e.target.value})}
-
                     />
 
                 </div>
